@@ -1,0 +1,61 @@
+div.foto1 {
+  width: 70%;
+  background-image: url("img/header2.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 179%;
+  padding: 5%;
+  margin: 8%;
+  display: inline-block;
+}
+.texto1 {
+  font-size: 40px;
+  text-shadow: 4px 4px 10px yellow;
+  font-family: cursive;
+}
+
+.texto2 {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+}
+
+.lineajuguete div img {
+  width: 320px;
+  margin: 17%;
+  display: block;
+
+  padding: 0px;
+  margin-top: 5px;
+  display: inline;
+}
+
+.lineajuguete {
+  display: flex;
+}
+
+.lineajuguete div {
+  width: 50%;
+  float: left;
+}
+
+div .textoproducto {
+  
+  align-items: center;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 80px;
+}
+
+footer {
+  font-size: 15px;
+  position: absolute;
+  background-color: pink;
+  width: 80%;
+  text-align: center;
+  padding: 12px;
+  align-items: center;
+  margin: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
